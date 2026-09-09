@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "VulnSOC: un sistema para detectar qué CVEs afectan realmente a tu entorno"
+title: "Automatización en n8n para detectar qué CVEs afectan realmente a tu entorno"
 category: auto
 date: 2026-06-12
 read_time: 9
-tags: [n8n, nvd, epss, kev, cve, automatizacion, telegram, vulnsoc]
+tags: [n8n, nvd, epss, kev, cve, automatizacion, telegram]
 description: "Cómo construí un flujo en n8n que consulta NVD cada mañana, descarta lo que no afecta a mi stack, prioriza por CVSS/EPSS/KEV y manda solo lo relevante a Telegram."
 ---
 
