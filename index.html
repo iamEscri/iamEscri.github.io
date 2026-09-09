@@ -317,25 +317,26 @@ section: home
         <div class="about-block-label">Formación complementaria</div>
         <div class="training-list">
           {% for course in portfolio.complementary_training %}
-          {% if course.url %}
-          <a href="{{ course.url }}" target="_blank" rel="noopener" class="training-row">
-          {% else %}
-          <div class="training-row training-row--static">
-          {% endif %}
+          <div class="training-row {% unless course.url or course.certificate_url %}training-row--static{% endunless %}">
             <div class="training-name">{{ course.name }}</div>
             <div class="training-meta">
-              <span class="training-org">{{ course.org }}</span>
+              <span class="training-org">
+                {% if course.org_icon and course.org_icon != "" %}<img class="training-org-icon" src="https://cdn.simpleicons.org/{{ course.org_icon }}" alt="">{% endif %}{{ course.org }}
+              </span>
               {% if course.duration %}<span class="training-dur">{{ course.duration }}</span>{% endif %}
             </div>
             <span class="training-badge {% if course.status == 'completed' %}badge-done{% elsif course.status == 'in-progress' %}badge-wip{% else %}badge-next{% endif %}">
               {% if course.status == 'completed' %}completado{% elsif course.status == 'in-progress' %}en curso{% else %}pendiente{% endif %}
             </span>
-            {% if course.url %}<span class="training-open">Abrir curso ↗</span>{% endif %}
-          {% if course.url %}
-          </a>
-          {% else %}
+            <div class="training-links">
+              {% if course.certificate_url and course.certificate_url != "" %}
+              <a href="{{ course.certificate_url }}" target="_blank" rel="noopener" class="training-cert">Ver certificado ↗</a>
+              {% endif %}
+              {% if course.url and course.url != "" %}
+              <a href="{{ course.url }}" target="_blank" rel="noopener" class="training-open">Abrir curso ↗</a>
+              {% endif %}
+            </div>
           </div>
-          {% endif %}
           {% endfor %}
         </div>
       </div>
