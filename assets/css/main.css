@@ -671,7 +671,7 @@ button:focus-visible,
 .about-cert-meta {
   font-family: var(--font-mono);
   font-size: 11px;
-  color: var(--text4);
+  color: var(--text2);
   line-height: 1.5;
 }
 
