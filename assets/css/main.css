@@ -692,7 +692,6 @@ button:focus-visible,
   border-bottom: 1px solid rgba(255,255,255,.06);
   text-decoration: none;
   transition: background .18s;
-  cursor: pointer;
 }
 .training-row--static { cursor: default; }
 .training-row:last-child { border-bottom: none; }
@@ -702,6 +701,20 @@ button:focus-visible,
   border-color: rgba(0,229,160,.5);
   color: var(--accent2);
 }
+.training-org-icon { width: 13px; height: 13px; vertical-align: -2px; margin-right: 6px; }
+.training-links { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+.training-cert {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text3);
+  border: 1px solid rgba(255,255,255,.10);
+  padding: 5px 12px;
+  border-radius: 6px;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: border-color .18s, color .18s;
+}
+.training-cert:hover { border-color: rgba(0,229,160,.5); color: var(--accent2); }
 .training-name {
   font-size: 14px;
   font-weight: 400;
@@ -758,6 +771,7 @@ button:focus-visible,
   border-radius: 6px;
   white-space: nowrap;
   flex-shrink: 0;
+  text-decoration: none;
   transition: border-color .18s, color .18s;
 }
 .training-arrow {
