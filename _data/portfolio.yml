@@ -160,9 +160,9 @@ certifications:
     status: "next"
   - name: "Máster en Ciberseguridad"
     org: "ENNIT"
-    date: "En progreso"
+    date: "2026"
     icon: "🛡️"
-    status: "in-progress"
+    status: "obtained"
 
 
 # --- FORMACIÓN COMPLEMENTARIA (sección Sobre mí) ---
@@ -176,6 +176,6 @@ complementary_training:
     org_icon: "udemy"          # slug de simpleicons.org — opcional, déjalo vacío o quítalo si no lo encuentras
     duration: "13h"
     date: "2026"
-    url: "https://www.udemy.com/course/curso-completo-de-claude-code-crea-aplicaciones-con-ia/"
+    url: "https://www.udemy.com/course/curso-completo-de-claude-code-crea-aplicaciones-con-ia"
     certificate_url: ""        # opcional — si lo rellenas, aparece el botón "Ver certificado"
     status: "in-progress"
