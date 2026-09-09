@@ -133,7 +133,7 @@ areas_trabajo:
   - name: "Defensiva"
     skills: [Wazuh, Fail2ban, Suricata, UFW]
   - name: "Automatización"
-    skills: [n8n, "Claude API", "workflows IA"]
+    skills: [n8n, "Claude Code", "workflows IA", Codex]
   - name: "Monitorización"
     skills: [Grafana, Splunk, Elastic]
   - name: "Redes"
