@@ -4,21 +4,7 @@
 # =============================================
 
 
-# --- BIO Y ESTADO GENERAL ---
-
-bio: >
-  Técnico en Sistemas (ASIR) enfocado en ciberseguridad defensiva.
-  Actualmente en formación en entornos SOC, análisis de logs y detección de amenazas.
-  Trabajo con entornos Linux, redes y herramientas de seguridad, documentando todo el proceso mediante writeups y artículos técnicos.
-  Mi objetivo es especializarme en Blue Team y formar parte de un SOC.
-
-bio_highlights:
-  - "ciberseguridad defensiva"
-  - "SOC"
-  - "Linux"
-  - "Blue Team"
-
-location: "España"
+# --- DISPONIBILIDAD ---
 
 # Cambia a false para ocultar el widget "Disponible para trabajar"
 available: true
@@ -38,26 +24,11 @@ status_areas:
   - "Documentación técnica"
 
 
-# --- OBJETIVOS (terminal: cat objetivos.txt) ---
-# status: "done"    → ✔ verde  (objetivo conseguido o en curso activo)
-# status: "pending" → ◎ gris   (objetivo futuro o pendiente)
-
-objetivos:
-  - text: "Completar Máster en Ciberseguridad (ENNIT)"
-    status: "done"
-  - text: "Obtener CompTIA Security+"
-    status: "done"
-  - text: "Preparar eJPT / eCPPT"
-    status: "pending"
-  - text: "Conseguir primer empleo en SOC / Blue Team"
-    status: "pending"
-  
-
-
-# --- EN DESARROLLO (panel derecho) ---
-# Muestra certificaciones o proyectos que estás cursando ahora mismo.
-# status: "in-progress" → se muestra con badge amarillo "en proceso"
-# status: "done"        → NO se muestra (ya terminado, desaparece solo)
+# --- EN DESARROLLO (panel derecho / "Estado actual") ---
+# status: "active"      → punto verde-teal,  badge "activo en producción"
+# status: "in-progress" → punto ámbar,       badge "en desarrollo"
+# status: "in-course"   → punto violeta,     badge "en curso"
+# status: "done"        → punto verde,       badge "completado" (sin animación de pulso)
 
 en_desarrollo:
   - name: "VulnSOC Assistant"
@@ -102,7 +73,6 @@ en_desarrollo:
     github: ""
     url: "https://www.campusciberseguridad.com/masters/master-en-ciberseguridad/" 
     post_url: ""
-
 
 
 # --- STACK ACTIVO (panel derecho) ---
@@ -151,29 +121,6 @@ stack_activo:
     icon: "python"
 
 
-# --- ROADMAP DE CERTIFICACIONES (tercera columna inferior) ---
-# status: "done"   → punto verde,           badge "obtenida"
-# status: "wip"    → punto amarillo pulsante, badge "en curso"
-# status: "next"   → punto gris,             badge "próximo"
-# status: "future" → punto gris,             badge "futuro"
-
-roadmap:
-  - name: "ASIR"
-    org: "IES Beniaján"
-    date: "2025"
-    status: "done"
-  - name: "Máster Ciberseguridad"
-    org: "ENNIT"
-    date: "en progreso"
-    status: "wip"
-  - name: "Security+"
-    org: "CompTIA"
-    date: "Próximo"
-    status: "next"
-  
- 
-
-
 # --- ÁREAS DE TRABAJO (sección Sobre mí) ---
 # Añade, quita o reordena áreas libremente.
 # Cada área tiene un nombre y una lista de skills/herramientas.
@@ -195,71 +142,10 @@ areas_trabajo:
     skills: [Proxmox, VMware, KVM, LXC]
 
 
-# --- ÁREAS DE TRABAJO (sección Sobre mí) ---
-# Añade, quita o reordena áreas libremente.
-# Cada área tiene un nombre y una lista de skills/herramientas.
-
-areas_trabajo:
-  - name: "Sistemas"
-    skills: [Linux, "Ubuntu Server", SSH, Bash, Networking]
-  - name: "Infraestructura"
-    skills: [Docker, VPS, Traefik, Nginx]
-  - name: "Defensiva"
-    skills: [Wazuh, Fail2ban, Suricata, UFW]
-  - name: "Automatización"
-    skills: [n8n, "Claude API", "workflows IA"]
-  - name: "Monitorización"
-    skills: [Grafana, Splunk, Elastic]
-  - name: "Redes"
-    skills: ["TCP/IP", DNS, VLANs, pfSense, Wireshark]
-  - name: "Virtualización"
-    skills: [Proxmox, VMware, KVM, LXC]
-
-
-# --- SKILLS (página Portfolio) ---
-
-skills:
-  # level: "aprendiendo" | "intermedio" | "avanzado"
-  - name: "Linux"
-    desc: "Administración, permisos, servicios, bash scripting"
-    level: "intermedio"
-  - name: "Redes"
-    desc: "TCP/IP, servicios, troubleshooting, análisis de tráfico"
-    level: "intermedio"
-  - name: "Análisis de logs"
-    desc: "Syslog, journald, correlación de eventos, SIEM"
-    level: "aprendiendo"
-  - name: "Hardening"
-    desc: "Configuración segura, SSH, permisos, CIS Benchmarks"
-    level: "aprendiendo"
-  - name: "Herramientas SOC"
-    desc: "Wazuh, Elastic SIEM, Nmap, Wireshark"
-    level: "intermedio"
-  - name: "CTFs / resolución de máquinas"
-    desc: "Enumeración, explotación básica, privilege escalation"
-    level: "intermedio"
-  - name: "Virtualización"
-    desc: "VMware, entornos de laboratorio, redes virtuales"
-    level: "avanzado"
-  
-
-
-# --- HERRAMIENTAS (página Portfolio) ---
-
-tools:
-  - nmap
-  - wireshark
-  - tcpdump
-  - burpsuite
-  - metasploit
-  - linux
-  - bash
-  - splunk
-  - elastic
-  - docker
-
-
-# --- CERTIFICACIONES (página Portfolio) ---
+# --- CERTIFICACIONES (sección Sobre mí) ---
+# status: "obtained"    → verde,  badge "obtenida"
+# status: "in-progress" → ámbar, badge "en curso"
+# status: "next"        → gris,  badge "próximo"
 
 certifications:
   - name: "ASIR"
@@ -277,6 +163,12 @@ certifications:
     date: "En progreso"
     icon: "🛡️"
     status: "in-progress"
+
+
+# --- FORMACIÓN COMPLEMENTARIA (sección Sobre mí) ---
+# status: "completed"   → verde,  badge "completado"
+# status: "in-progress" → ámbar, badge "en curso"
+# cualquier otro valor  → gris,  badge "pendiente"
 
 complementary_training:
   - name: "Curso Completo de Claude Code: Crea Aplicaciones con IA"
