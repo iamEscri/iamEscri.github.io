@@ -113,38 +113,47 @@ stack_activo:
     role: "host"
     icon_type: "devicon"
     icon: "linux"
+
   - name: "Docker"
     role: "runtime"
     icon_type: "devicon"
     icon: "docker"
+
   - name: "Wazuh"
     role: "SIEM"
     icon_type: "emoji"
     icon: "🛡️"
+
   - name: "Proxmox"
     role: "hypervisor"
     icon_type: "devicon"
     icon: "debian"
+
   - name: "n8n"
     role: "automation"
     icon_type: "devicon"
     icon: "nodejs"
-  - name: "Fail2ban"
-    role: "hardening"
+
+  - name: "pfSense"
+    role: "firewall"
     icon_type: "emoji"
-    icon: "🔒"
-  - name: "Traefik"
+    icon: "🔥"
+
+  - name: "Caddy"
     role: "proxy"
     icon_type: "emoji"
-    icon: "🔀"
+    icon: "🌐"
+
   - name: "Git"
     role: "vcs"
     icon_type: "devicon"
     icon: "git"
+
   - name: "Bash"
     role: "scripting"
     icon_type: "devicon"
     icon: "bash"
+
   - name: "Python"
     role: "scripting"
     icon_type: "devicon"
