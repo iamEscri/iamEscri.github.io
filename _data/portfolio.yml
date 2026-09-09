@@ -65,7 +65,7 @@ en_desarrollo:
     sub: "TFM · IA para análisis de vulnerabilidades en SOC"
     category: "Proyecto"
     year: "2026 — TFM"
-    desc: "TFM en curso. Asistente para análisis y priorización de vulnerabilidades en SOC, con razonamiento por LLM sobre contexto de host, red y CVE."
+    desc: "Asistente para análisis y priorización de vulnerabilidades en SOC, con razonamiento por LLM sobre contexto de host, red y CVE."
     stack: [Python, "Claude API", Wazuh, FastAPI]
     status: "active"
     github: "https://github.com/iamEscri/vulnsoc-assistant"
