@@ -95,9 +95,9 @@ en_desarrollo:
     sub: "ENNIT · Blue Team · análisis forense"
     category: "Formación"
     year: "2024 — 2026"
-    desc: "ENNIT · Blue Team y análisis forense. Material y laboratorios documentados en abierto a medida que avanzan los módulos."
+    desc: "ENNIT · Blue Team y análisis forense. Máster finalizado; material y laboratorios documentados quedan publicados en abierto."
     stack: ["Blue Team", DFIR, OSINT]
-    status: "in-course"
+    status: "done"
     github: ""
     url: "https://www.campusciberseguridad.com/masters/master-en-ciberseguridad/" 
     post_url: ""
