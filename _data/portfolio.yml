@@ -127,19 +127,19 @@ stack_activo:
 
 areas_trabajo:
   - name: "Sistemas"
-    skills: [Linux, "Ubuntu Server", SSH, Bash, Networking]
+    skills: [Linux, "Ubuntu Server", SSH, Bash]
   - name: "Infraestructura"
-    skills: [Docker, VPS, Traefik, Nginx]
+    skills: [Docker, VPS, Caddy, Nginx]
   - name: "Defensiva"
-    skills: [Wazuh, Fail2ban, Suricata, UFW]
+    skills: [Wazuh, Fail2ban, Suricata, iptables]
   - name: "Automatización"
-    skills: [n8n, "Claude Code", "workflows IA", Codex]
+    skills: [n8n, Python, APIs, "Workflows IA"]
   - name: "Monitorización"
-    skills: [Grafana, Splunk, Elastic]
+    skills: [Wazuh, Grafana, Elastic]
   - name: "Redes"
-    skills: ["TCP/IP", DNS, VLANs, pfSense, Wireshark]
+    skills: ["TCP/IP", DNS, VLANs, pfSense, Wireshark, VPN]
   - name: "Virtualización"
-    skills: [Proxmox, VMware, KVM, LXC]
+    skills: [Proxmox, VirtualBox, Hyper-V]
 
 
 # --- CERTIFICACIONES (sección Sobre mí) ---
